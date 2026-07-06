@@ -11,9 +11,9 @@ void
 
 completely erases all RAM bits and sets them to null values when given the * modifier
 
-readcap(integer)
+{integer}readcap(variable name)
 
-captures a random selection of RAM bits within the integer listed and pastes it when a printn() command is initiated.
+captures a random selection of RAM bits within the integer listed in between the braces and assigns a variable name in between parentheses and pastes it when a printn() command is initiated.
 
 printn()
 
