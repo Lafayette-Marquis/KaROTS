@@ -1,10 +1,10 @@
 # KaROTS
-Kontrol and RAM OverView Technology Script is a compiled language that reads, edits, and performs operations on Random Access Memory within individual bits written in Hexadecimal notation. file extension is .karots
+Kontrol and RAM OverView Technology Script is an interpreted language that reads, edits, and performs operations on Random Access Memory within individual bits written in Hexadecimal notation. file extension is .karots
 
 
 **Notable commmands and modifiers**
 
-* (When placed in front of a command):
+"*" (When placed in front of a command):
 selects every item under the command's domain (e.x., *void selects all RAM bits and sets them all to NULL values)
 
 void
