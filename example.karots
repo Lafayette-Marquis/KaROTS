@@ -1,0 +1,6 @@
+prep/pipeline "example"
+
+*readcap(myvar)
+printn(myvar)
+
+kill/pipeline "example"
