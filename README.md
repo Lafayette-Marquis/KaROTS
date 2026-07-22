@@ -11,11 +11,11 @@ selects every item under the command's domain (e.x., *void selects all RAM bits 
 
 void
 
-completely erases all RAM bits and sets them to null values when given the * modifier
+completely erases all RAM bytes and sets them to null values when given the * modifier
 
 {integer}readcap(variable name)
 
-captures a random selection of RAM bits within the integer listed in between the braces and assigns a variable name in between parentheses and pastes it when a printn() command is initiated.
+captures a random selection of RAM bytes within the integer listed in between the braces and assigns a variable name in between parentheses and pastes it when a printn() command is initiated.
 
 printn()
 
